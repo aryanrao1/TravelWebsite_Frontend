@@ -1,0 +1,30 @@
+/* ChatInput.css */
+.chat-input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #121212; /* Dark background for container */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center; /* Center the input field */
+  }
+  
+  .chat-input {
+    width: 95%; /* Take up most of the screen, but leave some padding */
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #333; /* Dark border */
+    border-radius: 25px; /* Fully rounded corners */
+    background-color: #000; /* Black background for input field */
+    color: #fff; /* White text */
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .chat-input:focus {
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5); /* Slight glow on focus */
+  }
+  
